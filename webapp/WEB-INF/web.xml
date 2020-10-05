@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee "
+         version="4.0">
+    <servlet>
+        <servlet-name>controller</servlet-name>
+        <servlet-class>servlets.ControllerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>controller</servlet-name>
+        <url-pattern>/scope</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>areacheck</servlet-name>
+        <servlet-class>servlets.AreaCheckServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>areacheck</servlet-name>
+        <url-pattern>/areacheck</url-pattern>
+    </servlet-mapping>
+</web-app>
