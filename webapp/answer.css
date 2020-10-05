@@ -1,0 +1,68 @@
+body {
+    background-image: url(sources/site_bk2.png);
+    border: solid #ecdc76;
+    margin: 0px;
+}
+
+#header-text {
+    text-align: left;
+    font: 18pt fantasy;
+    color: #ecdc76;
+}
+
+
+TD {
+    padding: 1px;
+    border-color: #536798;
+    border-style: ridge;
+    background: url(sources/site_bk3.png);
+}
+
+.resultCells  {
+    nowrap: true;
+    overflow: auto;
+    color: #adb0af;
+    font-size: 14pt;
+}
+
+.table {
+    margin: auto;
+    margin-top: 60px;
+    width: 1060px;
+    background: url(sources/site_bk5.png);
+    border-color: #ecdc76;
+    border-style: ridge;
+    padding: 20px;
+}
+
+#message {
+    text-align: center;
+    color: #adb0af;
+    font-size: 14pt;
+}
+
+#buttonCell {
+    padding: 0px;
+    background: none;
+    text-align: center;
+    border-style: none;
+    margin: 0;
+}
+
+Button.button {
+    background-image: url(sources/ok_buttn2.png);
+    vertical-align: middle;
+    height: 29px;
+    width: 55px;
+    border-radius: 6px
+}
+
+Button.button:hover{
+    background-color: #909090;
+}
+Button.button:active{
+    box-shadow: inset 1px 1px 10px -1px;
+}
+TD > form {
+    margin: 0;
+}
